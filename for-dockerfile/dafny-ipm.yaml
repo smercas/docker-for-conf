@@ -1,0 +1,3 @@
+programs:
+  dafnyincipmdll: "/app/dafny/Binaries/net8.0/Dafny.dll"
+  boogiedll: "/app/dafny/boogie/Source/BoogieDriver/bin/Release/net8.0/BoogieDriver.dll"

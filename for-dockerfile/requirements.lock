@@ -1,0 +1,7 @@
+z3-solver==4.15.3
+colorama==0.4.6
+prompt_toolkit==3.0.52
+sexpdata==1.0.2
+textual==6.7.1
+pexpect==4.9.0
+PyYAML==6.0.3

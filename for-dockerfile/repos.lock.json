@@ -1,0 +1,15 @@
+{
+  "dafny": {
+    "repo": "https://github.com/smercas/dafny-incremental-compilation.git",
+    "branch": "new-protection",
+    "commit": null
+  },
+  "boogie": {
+    "branch": "custom-boogie",
+    "commit": null
+  },
+  "aipmda": {
+    "branch": "rollback2",
+    "commit": null
+  }
+}
