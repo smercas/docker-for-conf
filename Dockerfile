@@ -63,7 +63,7 @@ COPY for-dockerfile/README.md /app/
 COPY for-dockerfile/dafny-ipm.yaml /app/workdir/
 
 RUN cd /app/workdir && \
-    rm -rf database examples tests dafny-ipm-code-ITP-submission && \
+    rm -rf database tests dafny-ipm-code-ITP-submission && \
     rm -f from-mercas.zip && \
     cd test_examples && \
     find . -maxdepth 1 -type f \
@@ -83,6 +83,10 @@ RUN cd /app/workdir && \
       ! -name 'ite_ex[2-3].dfy' \
       ! -name 'shadow0[1-3].dfy' \
       ! -name 'example_protect.dfy' \
+      -delete && \
+    cd examples && \
+    find . -maxdepth 1 -type f \
+      ! -name 'example[1-2].dfy' \
       -delete
 
 RUN cd dafny && \
