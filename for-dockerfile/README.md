@@ -38,11 +38,10 @@ python /app/workdir/dafny-incipm.py /app/workdir/examples/example1.dfy
 ```
 
 This runs the proof session for the ITE example referenced in the paper.
-For further experimentation, the following examples are also available:
+For further experimentation, the following example is also available:
 
 ```bash
 python /app/workdir/dafny-incipm.py /app/workdir/examples/example2.dfy
-python /app/workdir/dafny-incipm.py /app/workdir/examples/example3.dfy
 ```
 
 ---
