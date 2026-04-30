@@ -17,7 +17,6 @@ The working directory is located at `/app/workdir/` and contains the following f
 ├── examples/
 │   ├── example1.dfy    # First example - case splitting
 │   ├── example2.dfy    # Secondary example – nonlinear arithmetic reasoning
-│   └── example3.dfy    # Tertiary example – variable shadowing
 └── README.md           # This document
 ```
 
