@@ -55,7 +55,7 @@ python /app/workdir/dafny-incipm.py /app/workdir/examples/example2.dfy
 ```
 
 2. Follow the steps described in `example1.dfy` or in the paper.
-3. To explore further, repeat with `example2.dfy` or `example3.dfy`.
+3. To explore further, repeat with `example2.dfy`.
 
 ---
 
